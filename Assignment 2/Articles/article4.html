@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds</title>
+</head>
+<body>
+    <h1>Birds</h1>
+    <p>Creator: Isminisa Azaly</p>
+    <button id="dtl4">Detail</button>
+    <button id="edt4">Edit</button>
+    <button id="dlt4">Delete</button>
+    </br></br>
+    <p>Birds, members of the class Aves, include more than 10,400 living species. Their feathers distinguish them from all other classes of animal; no other animals on earth have them. If you see an animal with feathers, it’s undoubtedly a bird. Like mammals, birds are warm-blooded vertebrates with four-chambered hearts. However, they are more closely related to reptiles and are believed to have evolved from dinosaurs.</p>
+    </br></br>
+    <a href="../menu.html">
+        <button>Home</button>
+    </a>
+    <script>
+        if (localStorage.getItem("loger") != "Isminisa Azaly") {
+            document.getElementById('edt4').style.visibility = 'hidden';
+            document.getElementById('dlt4').style.visibility = 'hidden';
+        }
+    </script>
+</body>
+</html>

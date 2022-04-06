@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish</title>
+</head>
+<body>
+    <h1>Fish</h1>
+    <p>Creator: Sayyid Muhammad</p>
+    <button id="dtl3">Detail</button>
+    <button id="edt3">Edit</button>
+    <button id="dlt3">Delete</button>
+    </br></br>
+    <p>Fish are aquatic vertebrates. They usually have gills, paired fins, a long body covered with scales, and tend to be cold-blooded. "Fish" is a term used to refer to lampreys, sharks, coelacanths and ray-finned fishes, but is not a taxonomic group, which is a clade or group containing a common ancestor and all its descendants.</p>
+    </br></br>
+    <a href="../menu.html">
+        <button>Home</button>
+    </a>
+    <script>
+        if (localStorage.getItem("loger") != "Sayyid Muhammad") {
+            document.getElementById('edt3').style.visibility = 'hidden';
+            document.getElementById('dlt3').style.visibility = 'hidden';
+        }
+    </script>
+</body>
+</html>

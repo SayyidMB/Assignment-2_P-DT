@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mammals</title>
+</head>
+<body>
+    <h1>Mammals</h1>
+    <p>Creator: Hansen Hoswari</p>
+    <button id="dtl1">Detail</button>
+    <button id="edt1">Edit</button>
+    <button id="dlt1">Delete</button>
+    </br></br>
+    <p>The official mammal class is Mammalia. Animals that are considered mammals include warm-blooded vertebrates that have hair or fur and whose babies drink milk. Unlike other animal types like birds and insects, all mammal babies drink milk that comes from their mother’s bodies. This is one of the key ways to know if an animal is a mammal.</p>
+    </br></br>
+    <a href="../menu.html">
+        <button>Home</button>
+    </a>
+    <script>
+        if (localStorage.getItem("loger") != "Hansen Hoswari") {
+            document.getElementById('edt1').style.visibility = 'hidden';
+            document.getElementById('dlt1').style.visibility = 'hidden';
+        }
+    </script>
+</body>
+</html>

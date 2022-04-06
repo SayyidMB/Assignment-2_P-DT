@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Menu</title>
+</head>
+<body>
+    <h1>Articles</h1>
+    <p>Logged in as: 
+    <span id="owner">Guest</span>
+    </p>
+    <table border="1">
+        <tr>
+            <th>No.</th>
+            <th>Article Name</th>
+            <th>Owner</th>
+        </tr>    
+        <tr>
+            <td>1</td>
+            <td><a href="Articles/article1.html">Mammals</a></td>
+            <td>Hansen Hoswari</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><a href="Articles/article2.html">Reptiles</a></td>
+            <td>Hendrick Handoko</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><a href="Articles/article3.html">Fish</a></td>
+            <td>Sayyid Muhammad</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><a href="Articles/article4.html">Birds</a></td>
+            <td>Isminisa Azaly</td>
+        </tr>
+    </table>
+    </br>
+    <a href="index.html">
+    <button>Logout</button>
+    </a>
+    <script>
+        document.getElementById("owner").innerHTML = localStorage.getItem("loger");
+    </script>
+</body>
+</html>

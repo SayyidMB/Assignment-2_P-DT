@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reptiles</title>
+</head>
+<body>
+    <h1>Reptiles</h1>
+    <p>Creator: Hendrick Handoko</p>
+    <button id="dtl2">Detail</button>
+    <button id="edt2">Edit</button>
+    <button id="dlt2">Delete</button>
+    </br></br>
+    <p>Lizards, dinosaurs, crocodiles, turtles, and snakes – all belong to that ancient and stout class of animals known as the reptiles. This is a diverse group with more than 10,000 different species and a huge representation in the fossil record. Once the dominant land vertebrates on the planet, reptiles still occupy just about every single ecosystem outside of the extreme north and south.</p>
+    </br></br>
+    <a href="../menu.html">
+        <button>Home</button>
+    </a>
+    <script>
+        if (localStorage.getItem("loger") != "Hendrick Handoko") {
+            document.getElementById('edt2').style.visibility = 'hidden';
+            document.getElementById('dlt2').style.visibility = 'hidden';
+        }
+    </script>
+</body>
+</html>

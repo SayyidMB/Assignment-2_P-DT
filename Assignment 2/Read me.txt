@@ -1,0 +1,20 @@
+Existing login info:
+
+Name: Hansen Hoswari
+Username: Hansen
+Password: H1234
+
+
+Name: Hendrick Handoko
+Username: Hendrick
+Password: H1234
+
+
+Name: Sayyid Muhammad
+Username: Sayyid
+Password: S1234
+
+
+Name: Isminisa Azaly
+Username: Isminisa
+Password: I1234
